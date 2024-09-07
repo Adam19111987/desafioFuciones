@@ -3,6 +3,7 @@ function cambiarColor(elemento, color = "green") {
 }
 
 const ele = document.querySelector("#ele1");
+ele.style.background = "green"
 ele.addEventListener("click", function() {
     cambiarColor(ele, 'yellow');
 });
